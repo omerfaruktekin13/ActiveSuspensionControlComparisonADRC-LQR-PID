@@ -21,10 +21,15 @@ In progress...
 <p>The theory of LQR optimal control is concerned with operating a dynamic system at a minimum cost. The case where the system dynamics are described by a set of linear differential equations and the cost is described by a quadratic function is called the LQ problem. </p>
 <p>A PID controller continuously calculates an error value e(t) as the difference between a desired setpoint and a measured process variable and applies a correction based on proportional, integral, and derivative terms, hence the name.</p> 
 
-#Equation of Motion of the Vehicle
-![Dxxxxx]( "Deneme ")
-![Dxxxxx]( "Deneme ")
-![Dxxxxx]( "Deneme ")
+# Equation of Motion of the Vehicle
+![Dxxxxx](https://github.com/omerfaruktekin13/ActiveSuspensionControlComparisonADRC-LQR-PID/blob/main/Media/Equations/e_1.png "Deneme ")
+|:--:|
+| *Front Suspension Force on Bounce* |
+![Dxxxxx](https://github.com/omerfaruktekin13/ActiveSuspensionControlComparisonADRC-LQR-PID/blob/main/Media/Equations/e_2.png "Deneme ")
+| *Pitch Moments* |
+![Dxxxxx](https://github.com/omerfaruktekin13/ActiveSuspensionControlComparisonADRC-LQR-PID/blob/main/Media/Equations/e_3.png "Deneme ")
+| *Forces and Moments in Body Motion* |
+
 ## Tools and Languages
 <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a>
 <p> * MATLAB 2023a </p>
