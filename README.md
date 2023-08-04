@@ -1,23 +1,30 @@
 # ActiveSuspension Control Comparison ADRC (Active Disturbance Rejection Control), LQR (Linear Quadratic Regulator) and PID
 In progress...
 ## Project Media
-![Dxxxxx](https://github.com/omerfaruktekin13/ThrottlePositionControlwithSimscapeandAUTOSARStandards/blob/main/Media/VehicleDesign.png "Deneme ")
+![Dxxxxx]( "Deneme ")
 |:--:|
-| *Vehicle Model* |
-![Dxxxxx](https://github.com/omerfaruktekin13/ThrottlePositionControlwithSimscapeandAUTOSARStandards/blob/main/Media/Architecture.png "Deneme ")
-| *Overall System* |
-![Dxxxxx](https://github.com/omerfaruktekin13/ThrottlePositionControlwithSimscapeandAUTOSARStandards/blob/main/Media/Composition.png "Deneme ")
-| *Software Architecture* |
-![Dxxxxx](https://github.com/omerfaruktekin13/ThrottlePositionControlwithSimscapeandAUTOSARStandards/blob/main/Media/LookUpTable.png "Deneme ")
-| *LookUp Table* |
-![Dxxxxx](https://github.com/omerfaruktekin13/ThrottlePositionControlwithSimscapeandAUTOSARStandards/blob/main/Media/PIDControl.png "Deneme ")
+| *Vehicle* |
+![Dxxxxx]( "Deneme ")
+| *ADRC Control Algorithm* |
+![Dxxxxx]( "Deneme ")
+| *LQR Control Algorithm* |
+![Dxxxxx]( "Deneme ")
+| *PID Control Algorithm* |
+![Dxxxxx]( "Deneme ")
 | *Function-Call Subsystem* |
-![Dxxxxx](https://github.com/omerfaruktekin13/ThrottlePositionControlwithSimscapeandAUTOSARStandards/blob/main/Media/function-call.png "Deneme ")
+![Dxxxxx]( "Deneme ")
 | *PID Control Unit* |
 
 ## Description
-The theory of optimal control is concerned with operating a dynamic system at a minimum cost. The case where the system dynamics are described by a set of linear differential equations and the cost is described by a quadratic function is called the LQ problem. ADRC estimates and compensates for system uncertainties in real-time, providing disturbance rejection performance similar to PID controllers but with less tuning effort. 
+<p>This project is designed to test and control the vehicle suspension with 3 different control algorithms: ADRC, LQR, and PID. I draw the Cyber Truck on Autodesk Fusion 360 and connected the parts on Simulink Simscape for simulation.</p> 
+<p>ADRC estimates and compensates for system uncertainties in real-time, providing disturbance rejection performance similar to PID controllers but with less tuning effort.</p> 
+<p>The theory of LQR optimal control is concerned with operating a dynamic system at a minimum cost. The case where the system dynamics are described by a set of linear differential equations and the cost is described by a quadratic function is called the LQ problem. </p>
+<p>A PID controller continuously calculates an error value e(t) as the difference between a desired setpoint and a measured process variable and applies a correction based on proportional, integral, and derivative terms, hence the name.</p> 
 
+#Equation of Motion of the Vehicle
+![Dxxxxx]( "Deneme ")
+![Dxxxxx]( "Deneme ")
+![Dxxxxx]( "Deneme ")
 ## Tools and Languages
 <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a>
 <p> * MATLAB 2023a </p>
