@@ -1,5 +1,5 @@
 # ActiveSuspension Control Comparison ADRC (Active Disturbance Rejection Control), LQR (Linear Quadratic Regulator) and PID
-
+In progress...
 ## Project Media
 ![Dxxxxx](https://github.com/omerfaruktekin13/ThrottlePositionControlwithSimscapeandAUTOSARStandards/blob/main/Media/VehicleDesign.png "Deneme ")
 |:--:|
@@ -16,9 +16,7 @@
 | *PID Control Unit* |
 
 ## Description
-This project consists of 2 different parts:
-<p>In the first part, I've created the car system in the 1st picture using Simulink/Simscape. I declared the parameters of the wheels with the Magic Formula algorithm. While the system is running, you can interactively observe how the speed of the car is affected by changing the incline of the road, the throttle position and the wind speed in the opposite direction.</p>
-In the second part, I explained how to create a throttle position in accordance with AUTOSAR and ISO26262 standards and make it ready for hardware. The 2nd picture shows the I/O inputs, the State Chart section that sorts the hierarchy in the server-client system and the composition block of the whole system. The 3rd picture shows the Software Architecture Model, which includes Adaptive Software Components. You can examine the ports and the event sequences assigned to them in the AUTOSAR Dictionary section. At this stage, you can generate your C++ Code and ARXML files for your hardware with MATLAB Code Generator. If you wish, you can change the table values such as HBridge in the system with the LookUp Table Editor as in the 4th picture. In the 5th picture, there is the function-call Subsystem, which is required to create the Adaptive Software Component and is triggered by the functions we have created in the State Chart. In the last picture, you can see the PID Controller.
+The theory of optimal control is concerned with operating a dynamic system at a minimum cost. The case where the system dynamics are described by a set of linear differential equations and the cost is described by a quadratic function is called the LQ problem. ADRC estimates and compensates for system uncertainties in real-time, providing disturbance rejection performance similar to PID controllers but with less tuning effort. 
 
 ## Tools and Languages
 <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a>
