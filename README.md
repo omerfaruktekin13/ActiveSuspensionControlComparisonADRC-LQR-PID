@@ -3,17 +3,12 @@ In progress...
 ## Project Media
 ![Dxxxxx]( "Deneme ")
 |:--:|
-| *Vehicle* |
+| *Simscape Simulation* |
 ![Dxxxxx]( "Deneme ")
-| *ADRC Control Algorithm* |
+| *Simulink Model* |
 ![Dxxxxx]( "Deneme ")
-| *LQR Control Algorithm* |
-![Dxxxxx]( "Deneme ")
-| *PID Control Algorithm* |
-![Dxxxxx]( "Deneme ")
-| *Function-Call Subsystem* |
-![Dxxxxx]( "Deneme ")
-| *PID Control Unit* |
+| *Control Algorithm Comparison* |
+
 
 ## Description
 <p>This project is designed to test and control the vehicle suspension with 3 different control algorithms: ADRC, LQR, and PID. I draw the Cyber Truck on Autodesk Fusion 360 and connected the parts on Simulink Simscape for simulation.</p> 
@@ -36,7 +31,7 @@ In progress...
 <p> * Simulink </p>
 <p> * Simulink Simscape </p>
 <p> * Simulink Desktop Real-Time </p>
-<p> * Simulink AUTOSAR Blockset </p>
+<p> * Simulink Control Toolbox </p>
 
 ## Installation
 > 1. Download CarModel.slx in the FirsPart folder and observe the effect of the qualifications on the vehicle speed interactively.
