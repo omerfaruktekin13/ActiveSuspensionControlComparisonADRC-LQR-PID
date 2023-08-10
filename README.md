@@ -1,5 +1,5 @@
 # ActiveSuspension Control Comparison ADRC (Active Disturbance Rejection Control), LQR (Linear Quadratic Regulator) and PID
-In progress...
+
 ## Project Media
 ![Dxxxxx](https://github.com/omerfaruktekin13/ActiveSuspensionControlComparisonADRC-LQR-PID/blob/main/Media/VehicleGif.gif "Deneme ")
 |:--:|
