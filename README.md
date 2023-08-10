@@ -15,6 +15,7 @@ In progress...
 <p>ADRC estimates and compensates for system uncertainties in real-time, providing disturbance rejection performance similar to PID controllers but with less tuning effort.</p> 
 <p>The theory of LQR optimal control is concerned with operating a dynamic system at a minimum cost. The case where the system dynamics are described by a set of linear differential equations and the cost is described by a quadratic function is called the LQ problem. </p>
 <p>A PID controller continuously calculates an error value e(t) as the difference between a desired setpoint and a measured process variable and applies a correction based on proportional, integral, and derivative terms, hence the name.</p> 
+I sent three disturbances (road height) to the system with different heights. According to the plot, sort of the control algorithm success can be: ADRC, LQR and PID.
 
 # Equation of Motion of the Vehicle
 ![Dxxxxx](https://github.com/omerfaruktekin13/ActiveSuspensionControlComparisonADRC-LQR-PID/blob/main/Media/Equations/e_1.png "Deneme ")
